@@ -3,7 +3,10 @@
 ./blog/rss.xml
 ./index.html
 ./jobs/index.html
+./people/asmeurer.html
+./people/hodge.html
 ./people/index.html
+./people/scopatz.html
 ./projects.html
 ./static/TWoFCS_logo.svg
 ./static/images/demo/320x240.png
