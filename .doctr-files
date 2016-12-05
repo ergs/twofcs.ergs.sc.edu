@@ -38,6 +38,7 @@
 ./static/layout/styles/framework.css
 ./static/layout/styles/index.html
 ./static/layout/styles/layout.css
+./static/logo-curves.svg
 ./static/pages/basic-grid.html
 ./static/pages/full-width.html
 ./static/pages/gallery.html
