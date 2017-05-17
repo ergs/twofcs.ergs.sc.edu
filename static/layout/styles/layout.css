@@ -464,6 +464,9 @@ table a {
 table h4 {
   margin-bottom: 0;
 }
+time {
+  font-size: 16px;
+}
 .schedule-offset {
   color: #a9b2b9;
 }
