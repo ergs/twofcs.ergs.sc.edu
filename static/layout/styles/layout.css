@@ -471,14 +471,20 @@ time {
   color: #a9b2b9;
 }
 .tablemisc {
-  color: #23292e
+  background-color: #23292e
 }
 .tablemod {
-  color: #23292e
+  background-color: #378b55
 }
 .tablescen {
-  color: #23292e
+  background-color: #6093be
 }
 .tablevv {
-  color: #23292e
+  background-color: #e3a6e2
+}
+.tablebreak {
+  background-color: #cfa544
+}
+.tablegen {
+  background-color: #cfa544
 }
