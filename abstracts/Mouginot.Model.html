@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!--
+Template Name: Ossibird
+Author: <a href="http://www.os-templates.com/">OS Templates</a>
+Author URI: http://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: http://www.os-templates.com/template-terms
+-->
+<html>
+<head>
+<title>Baptiste Mouginot - Model Performance Analysis</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="../static/layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+</head>
+<body id="top">
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- Top Background Image Wrapper -->
+<div class="topspacer bgded overlay">
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <div id="pageintro" style="display: inline-block;width: 100%;text-align:center;">
+    <article class="two_third">
+      <h2 class="heading">Model Performance Analysis</h2>
+      <h3><b>Baptiste Mouginot, P.P.H. Wilson</b></h3><h3>University of Wisconsin-Madison</h3>
+    </article>
+    <article class="one_quarter">
+        <img src="../static/TWoFCS_logo.svg"></img>
+    </article>
+  </div>
+  <!-- ################################################################################################ -->
+</div>
+<!-- End Top Background Image Wrapper -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row2" id="news">
+  <main class="hoc container clear">
+    <h6 class="heading font-x3">Abstract</h6>
+    <article class="first">
+    The CLASS team has developed high quality predictors based on pre-trained neural networks, allowing the estimation the evolution different neutronic parameters, such as neutron multiplication factor or macroscopic cross sections, along the irradiation of the fuel. This allows building various fuel fabrication and depletion models for fuel cycle simulators. The cyCLASS package [1]  has been developed to allow the use of CLASS  fabrication and cross section prediction models inside Cyclus. cyCLASS provides a reactor facility and a fuel fabrication facility, which are able to use any CLASS models to provide/request fuel to the entire Cyclus ecosystem. Using cyCLASS, it has been possible to perform fuel cycle simulations comparing different levels of archetypes fidelity[2].<p/><p/>This work focuses on the analysis of the performance of some high fidelity models developed from [3,4], extending the isotopic validity space from uranium and plutonium to the most common transuranic elements for Light Water Reactors (LWR) and Sodium Fast Reactors (SFR). Those extended models were required to study a transition scenario from the actual US nuclear fleet to a SFR and LWR fleet reprocessing the most commun transuranic elements (see “Recipe vs Model” presentation from the same author). The present work aims to evaluate the following for each of the models:<p/>the performance relative to the training sample density,<p/>the precision topography inside and outside of the validity space,<p/>the performance of the burnup calculation for the cross section predictors.<p/>As a complete set of real data is not available to benchmark such models, their relative performances will be evaluated with regards to the depletion tool used to train them.<p/>
+    </article>
+    <div class="clear"></div>
+  </main>
+</div>
+
+
+<!-- ################################################################################################ -->
+<div class="wrapper row4" id="conformat">
+  <main class="hoc container clear">
+    <h6 class="heading font-x3">References</h6>
+    <article class="first">
+    [1] B. MOUGINOT, “cyCLASS: CLASS models for Cyclus,”, Figshare, https://dx.doi.org/10.6084/m9.figshare.3468671.v2 (2016).<br/>[2] B. Mouginot, P.P.H. Wilson, R.W. Carlsen, “Impact of Isotope Fidelity on Fuel Cycle Calculations”, ANS Winter Conference, Las Vegas, (November 2016)<br/>[3] B. Leniau, B. Mouginot, N. Thiollière, X. Doligez, A. Bidaud, F. Courtin, M. Ernoult and S. David, “A neural network approach for burn-up calculation and its application to the dynamic fuel cycle code CLASS,” Annals of Nuclear Energy , 81 , 125 – 133 (2015).<br/>[4] B. Leniau, F. Courtin, B. Mouginot, N. Thiollière, X. Doligez, A. Bidaud, “Generation of SFR Physics Models for the Nuclear Fuel Cycle Code CLASS” PHYSOR 2016<br/>
+    </article>
+    <div class="clear"></div>
+  </main>
+</div>
+
+
+<!-- ################################################################################################ -->
+<a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
+<!-- JAVASCRIPTS -->
+<script src="static/layout/scripts/jquery.min.js"></script>
+<script src="static/layout/scripts/jquery.backtotop.js"></script>
+<script src="static/layout/scripts/jquery.mobilemenu.js"></script>
+</body>
+</html>

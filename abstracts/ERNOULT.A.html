@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!--
+Template Name: Ossibird
+Author: <a href="http://www.os-templates.com/">OS Templates</a>
+Author URI: http://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: http://www.os-templates.com/template-terms
+-->
+<html>
+<head>
+<title>Marc ERNOULT - A global and flexible model for Sodium-cooled Fast Reactors in electro-nuclear scenarios</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="../static/layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+</head>
+<body id="top">
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- Top Background Image Wrapper -->
+<div class="topspacer bgded overlay">
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <div id="pageintro" style="display: inline-block;width: 100%;text-align:center;">
+    <article class="two_third">
+      <h2 class="heading">A global and flexible model for Sodium-cooled Fast Reactors in electro-nuclear scenarios</h2>
+      <h3><b>Marc ERNOULT, DOLIGEZ Xavier, ZAKARI-ISSOUFOU Abdoul-Aziz, SOMAINI Alice</b></h3><h3>CNRS/IPNO</h3>
+    </article>
+    <article class="one_quarter">
+        <img src="../static/TWoFCS_logo.svg"></img>
+    </article>
+  </div>
+  <!-- ################################################################################################ -->
+</div>
+<!-- End Top Background Image Wrapper -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row2" id="news">
+  <main class="hoc container clear">
+    <h6 class="heading font-x3">Abstract</h6>
+    <article class="first">
+    Sodium cooled Fast Reactors (SFR) are present in a lot of scenarios and strategies for the future of nuclear energy. They often constitutes a large part of future nuclear reactor fleets, sometimes up to 100%. It is thus important to include model for these reactors in our codes. However the deployment of SFRs at the industrial scale has not started yet and concept are not completely fixed. A wide range of design are still currently studied, some are at a more advanced technology readiness level and seems to  be more close to industrial reactors, but no consensus yet on one of them.<p/>To conclude about the scenarios including these reactor concepts we need models inside our scenario codes, models precises enough to render to sensitivity of isotopes' inventories to changes of designs and/or fuel cycle. Creating one model for each design and then testing all scenarios with all models would be  unnecessarily  time consuming considering how far most sodium fast reactors concepts are from industrial technology readiness levels.<p/>To avoid this problem while still providing a model precise enough to be able to conclude on the scenarios involving SFRs, we choose to develop a single, physics-based, flexible model able to represent a wide range of SFR designs. In  this flexible model many design parameters, such as the radius or the height of the active core or the fertile blankets, are not fixed but can be chosen during scenario definition in order to adapt the SFR design in each scenario while still using the unique model.<p/>The model is integrated in the CLASS scenario simulation tool[1] and is based on neural networks able to feed the two main CLASS sub-models that are the cross-section predictor and the fuel building method. For the cross-section predictor, cross-section for a large collection of SFR depletion that are representative of the whole range of simulated designs are needed. For  the fuel building method, even in breeder reactor, and due to the difficulty to control reactivity in SFR, the evolution of K during depletion is the limiting factor for choosing what material to put in your fuel. Therefor we need also to be able to predict k evolution for the whole collection of SFR designs.<p/>The influence of a wide range of parameters and modeling choices on the cross-sections and the k have been investigated and only most  significant parameters are used for the final simulations.<p/>Because the construction of a training base for neural network needs a big number of point, we used also these calculations to simplify as much as possible the model use for neural network training without sacrificing behavior rendering and precision.<p/>Using these parameter selection as a training base for the neural networks, a model is created and included in the scenario code CLASS. Some reference scenarios are then simulated using this model are analyzed in order to assess the level of flexibility and precision of the model.
+    </article>
+    <div class="clear"></div>
+  </main>
+</div>
+
+
+
+<!-- ################################################################################################ -->
+<a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
+<!-- JAVASCRIPTS -->
+<script src="static/layout/scripts/jquery.min.js"></script>
+<script src="static/layout/scripts/jquery.backtotop.js"></script>
+<script src="static/layout/scripts/jquery.mobilemenu.js"></script>
+</body>
+</html>

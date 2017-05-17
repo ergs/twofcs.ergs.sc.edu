@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!--
+Template Name: Ossibird
+Author: <a href="http://www.os-templates.com/">OS Templates</a>
+Author URI: http://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: http://www.os-templates.com/template-terms
+-->
+<html>
+<head>
+<title>Ross Hays - Fuel Composition Transition Modeling</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="../static/layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+</head>
+<body id="top">
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- Top Background Image Wrapper -->
+<div class="topspacer bgded overlay">
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <div id="pageintro" style="display: inline-block;width: 100%;text-align:center;">
+    <article class="two_third">
+      <h2 class="heading">Fuel Composition Transition Modeling</h2>
+      <h3><b>Ross Hays</b></h3><h3>Idaho National Laboratory</h3>
+    </article>
+    <article class="one_quarter">
+        <img src="../static/TWoFCS_logo.svg"></img>
+    </article>
+  </div>
+  <!-- ################################################################################################ -->
+</div>
+<!-- End Top Background Image Wrapper -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row2" id="news">
+  <main class="hoc container clear">
+    <h6 class="heading font-x3">Abstract</h6>
+    <article class="first">
+    A persistent challenge in the development of any computational model is the proper application of complexity to capture the desired outcomes with the necessary fidelity without incurring undue costs.  Certain models track individual fuel batches through individual reactors using embedded neutronics calculations to closely estimate isotopic mass flows in time.  While others simply assume that reactors of a given type have fixed-isotopic input and output fuel recipes.  Most fall somewhere in between; it is also common for powerful codes to be applied simply at first for fast scoping calculations, with advanced features reserved for later application to the more promising options.<p/>A recent series of analyses using the VISION fuel cycle model followed such an arc.  The initial scenario to be examined relied on an equilibrium fuel recipe at a pre-calculated end-state, requiring very little sophistication.  Later scenarios examined the transition to the end state from an assumed starting point.  The first calculations required only the existing ability to evolve between similar fuel recipes.  However, later transitions looked at swapping out breeder reactor driver, blanket, and reflector assemblies to vary the breeding ratio.  This introduced large changes in core mass and irradiation time parameters, which VISION was unable to handle.  To compute this scenario, changes were made to the reactor fuel management module to increase its flexibility.  Instead of tracking mass, this new model tracks the integer number of reactors having fuel at 1) a given point burn-up, 2) the pass index of the fuel, and 3) the fuel recipe vintage (where vintage refers to either the Current or Previous recipe).  When the recipe for a reactor changed, the previously loaded inventory is transferred over from the Current vintage to the Previous.  The previous recipe fuel is then prioritized for discharge ahead of the newer material, ensuring a timely transition.  This allows the recipe transition to occur without requiring a complete restart of the affected reactor fleet.<p/>Another common challenge is that of adapting existing models to unforeseen situations.  For example, while the continuous fuel flow of the VISION fleet-averaged model would be readily adaptable to the continuous refueling of a Pebble Bed Reactor, it would be quite a different undertaking to model a Molten Salt Reactor.  In the former case, the constant rate of new fuel addition and old fuel discharge would be well matched to the existing constant-flow approximations.  However, in the latter case, the requirement that fuel pass through finite cooling, processing, and fabrication stages would introduce an unavoidable logical delay.  While shortening the timestep might improve the fidelity of the calculations, it would do so at a large computational cost.  Other work-arounds may be possible, but their impacts to scenario fidelity must be carefully assessed prior to deployment.
+    </article>
+    <div class="clear"></div>
+  </main>
+</div>
+
+
+
+<!-- ################################################################################################ -->
+<a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
+<!-- JAVASCRIPTS -->
+<script src="static/layout/scripts/jquery.min.js"></script>
+<script src="static/layout/scripts/jquery.backtotop.js"></script>
+<script src="static/layout/scripts/jquery.mobilemenu.js"></script>
+</body>
+</html>

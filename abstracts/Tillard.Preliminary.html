@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!--
+Template Name: Ossibird
+Author: <a href="http://www.os-templates.com/">OS Templates</a>
+Author URI: http://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: http://www.os-templates.com/template-terms
+-->
+<html>
+<head>
+<title>Léa Tillard - Preliminary studies for ASTRID-like SFR implementation in the CLASS code</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="../static/layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+</head>
+<body id="top">
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- Top Background Image Wrapper -->
+<div class="topspacer bgded overlay">
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <div id="pageintro" style="display: inline-block;width: 100%;text-align:center;">
+    <article class="two_third">
+      <h2 class="heading">Preliminary studies for ASTRID-like SFR implementation in the CLASS code</h2>
+      <h3><b>Léa Tillard</b></h3><h3>IRSN (Institut de Radioprotection et de Sûreté Nucléaire)</h3>
+    </article>
+    <article class="one_quarter">
+        <img src="../static/TWoFCS_logo.svg"></img>
+    </article>
+  </div>
+  <!-- ################################################################################################ -->
+</div>
+<!-- End Top Background Image Wrapper -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row2" id="news">
+  <main class="hoc container clear">
+    <h6 class="heading font-x3">Abstract</h6>
+    <article class="first">
+    Regarding the evolution of the electronuclear fleet for the next years, the French reference scenario [1, 2] considers the progressive deployment of low void effect Sodium Fast Reactor (SFR-CFV), a generation IV reactor. The implementation of this new reactor in the CLASS (Core Library for Advanced Scenario Simulation) software, a dynamic fuel cycle simulation code developed by CNRS in collaboration with IRSN, requires the development of specific physics models [3]. These models aim at predicting physical quantities such as multiplication factor, cross sections, flux or isotopic compositions. These predictors are used many times during the simulation. First, they are used to build fresh fuel according to the reactor characteristics. For instance, in case of reprocessing scenario, fresh fuel might be manufactured with any isotopic composition present into storages. Besides, these predictors are also used to calculate the depletion of all possible fuel compositions. Thus, they must be optimized on a criterion of computing time minimization while providing sufficiently accurate results. Therefore, predictors’ development is based on a databank composed of many depletion Monte Carlo simulations.<p/>In this framework, prior to developing these predictors a neutronic study of each reactor core design is needed to determine the behavior of the quantities of interest, such as cross sections. Thus, physics models are adapted to reactor specificities. For practical reasons, they are generally based on a simplified version of the reactor design and the impact of different simplifications on neutronic values has to be quantified.<p/>This introductory paper presents one ASTRID-like SFR-CFV preliminary study that is currently performed before integrating the associated models into the CLASS code. The low sodium void effect core used is based on the 600 MWe French ASTRID concept developed by CEA with industrial partners [4]. The core, which is very heterogeneous, is composed of two radial parts: an inner and an outer core. There are two kinds of assemblies which alternate differently fertile and fissile areas.<p/>To prepare the appropriate methodology for core simulations, infinite assembly calculations can be run. First of all, static and depletion Monte Carlo codes are used to adjust different quantities of interest (number of cycles, number of particles per cycle, number of time steps…). Then, the impact of the fuel isotopic composition on the previous indicators must be evaluated. These Monte Carlo simulations are done with the MORET Monte Carlo code and the coupling between MORET code and VESTA software, both developed by IRSN. The main results and analysis will be presented in the proposed paper.
+    </article>
+    <div class="clear"></div>
+  </main>
+</div>
+
+
+
+<!-- ################################################################################################ -->
+<a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
+<!-- JAVASCRIPTS -->
+<script src="static/layout/scripts/jquery.min.js"></script>
+<script src="static/layout/scripts/jquery.backtotop.js"></script>
+<script src="static/layout/scripts/jquery.mobilemenu.js"></script>
+</body>
+</html>
