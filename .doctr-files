@@ -11,6 +11,7 @@
 ./abstracts/Krivtchik.Scenarios.html
 ./abstracts/Mouginot.Confidence.html
 ./abstracts/Mouginot.Model.html
+./abstracts/Mouginot.Recipe.html
 ./abstracts/Peterson-Droogh.Cross.html
 ./abstracts/Shuller-Nickles.Energize:.html
 ./abstracts/Skutnik.Integrating.html
@@ -18,7 +19,6 @@
 ./abstracts/Tillard.Preliminary.html
 ./abstracts/Tillement.Between.html
 ./abstracts/Villacorta Skarbeli.Analysis.html
-./abstracts/Wilson.Recipe.html
 ./abstracts/Wojtaszek.Scenario.html
 ./abstracts/ZAKARI-ISSOUFOU.A.html
 ./blog/index.html
