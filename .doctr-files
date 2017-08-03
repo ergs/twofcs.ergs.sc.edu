@@ -56,15 +56,15 @@
 ./static/Mouginot.Confidence.pdf
 ./static/Mouginot.Model.pdf
 ./static/Mouginot.Recipe.pdf
+./static/Notes1.pdf
+./static/Notes2.pdf
+./static/Notes3.pdf
 ./static/Peterson-Droogh.Cross.pptx
 ./static/Scopatz.Opening.pdf
 ./static/Scopatz.Purpose.pdf
 ./static/Shuller-Nickles.Energize.pptx
 ./static/Skarbeli.Analysis.pdf
 ./static/Skutnik.Integrating.pptx
-./static/TWoFCS - Notes - 7-19-17.pdf
-./static/TWoFCS - Notes - 7-20-17.pdf
-./static/TWoFCS - Notes - 7-21-17.pdf
 ./static/TWoFCS_logo.png
 ./static/TWoFCS_logo.svg
 ./static/Thiolliere.Study.pdf
@@ -105,7 +105,9 @@
 ./static/layout/styles/layout.css
 ./static/logo-curves.png
 ./static/logo-curves.svg
+./static/notes1.html
 ./static/notes2.html
+./static/notes3.html
 ./static/pages/basic-grid.html
 ./static/pages/full-width.html
 ./static/pages/gallery.html

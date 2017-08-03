@@ -19,3 +19,4 @@ jQuery(window).scroll(function () {
         jQuery("#backtotop").removeClass("visible");
     }
 });
+
