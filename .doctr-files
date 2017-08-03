@@ -62,6 +62,9 @@
 ./static/Shuller-Nickles.Energize.pptx
 ./static/Skarbeli.Analysis.pdf
 ./static/Skutnik.Integrating.pptx
+./static/TWoFCS - Notes - 7-19-17.pdf
+./static/TWoFCS - Notes - 7-20-17.pdf
+./static/TWoFCS - Notes - 7-21-17.pdf
 ./static/TWoFCS_logo.png
 ./static/TWoFCS_logo.svg
 ./static/Thiolliere.Study.pdf
@@ -102,6 +105,7 @@
 ./static/layout/styles/layout.css
 ./static/logo-curves.png
 ./static/logo-curves.svg
+./static/notes.html
 ./static/pages/basic-grid.html
 ./static/pages/full-width.html
 ./static/pages/gallery.html
